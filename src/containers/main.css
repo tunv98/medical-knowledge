@@ -1,0 +1,93 @@
+#main-layout{
+    height: 100vh;
+}
+#main-layout .main-logo{
+    height: 125px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-top: -130px;
+}
+.file-limit{
+    font-size: 10px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.61);
+}
+#header-layout{
+    position: relative;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px; 
+}
+.header-box{
+    height: 40px;
+    width: 40px;
+    background: #4f85be;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#content-layout{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.popover-file .popover-body .list-group-item:last-child {
+    border-top: 0;
+}
+.popover-file .popover {
+    font-size: 14px !important;
+}
+.popover-body {
+    padding: 0 !important;
+}
+.popover-file .popover-body .list-group-item:hover {
+    cursor: pointer;
+}
+.popover-file div.popover.show.bs-popover-bottom {
+    top: -4px !important;
+    color: #172b4d;
+}
+.popover-file div.popover-body > .list-group > .list-group-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(223, 223, 223, 0.24);
+    /* border-radius: 4px; */
+}
+.popover-file div.popover-body > .list-group > .list-group-item:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0366d6;
+    outline: none;
+}
+.popover-file div.popover-body > .list-group > .list-group-item img {
+    margin-right: 8px !important;
+    margin-left: -5px !important;
+}
+.popover-file.fade{
+    transition: none !important;
+}
+.popover-file .list-group-item{
+    border: none !important;
+    border-radius: 0 !important;
+}
+.popover-file .popover{
+    box-shadow: 0 8px 24px rgba(149,157,165,.2) !important;
+}
+.pop-divider{
+    display: block;
+    height: 0;
+    margin-bottom: 4px;
+    border-top: 1px solid #e1e4e8;
+}
+.header-pop{
+    padding: 7px 1.25rem;
+}
+.popover-file .list-group{
+    margin-bottom: 3px;
+}

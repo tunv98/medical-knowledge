@@ -1,0 +1,58 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.14.1",
+    "formik": "^2.1.4",
+    "js-base64": "^2.5.2",
+    "jwt-decode": "^2.2.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "mobx-react-router": "^4.1.0",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-inlinesvg": "^1.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^5.5.0",
+    "reactstrap": "^8.4.1",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "cd api && python3 app.py --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3"
+  },
+  "proxy": "http://localhost:5000/"
+}
