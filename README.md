@@ -1,5 +1,5 @@
 # medical-knowledge
-#####1. FLOW
+1. FLOW
    ![Main flow](/process.jpg)
 
 + LUỒNG TÌM KIẾM:
@@ -15,7 +15,7 @@
  + Bên cạnh đó, để dữ liệu giữa csdl elastic và MySQL được đồng bộ thì hệ thống được lập lịch và chạy query ánh xạ dữ liệu từ MySQL tới Elastic.
 
 
-#####2. SET UP
+2. SET UP
 1. yarn run build
 2. sudo systemctl reload nginx
 3. sudo service nginx start
