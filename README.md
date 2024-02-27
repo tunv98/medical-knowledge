@@ -16,15 +16,15 @@
 
 
 2. SET UP
-   1. yarn run build
-   2. sudo systemctl reload nginx
-   3. sudo service nginx start
-   4. sudo service nginx restart
-   5. systemctl reload nginx
-   6. service nginx restart
-   7. nginx
-   8. systemctl status nginx.service
-   9. nano /etc/systemd/system/medicalknowledge.service
-   10. systemctl daemon-reload
-   11. systemctl start medicalknowledge.service
-   12. systemctl status medicalknowledge.service
+   + yarn run build
+   + sudo systemctl reload nginx
+   + sudo service nginx start
+   + sudo service nginx restart
+   + systemctl reload nginx
+   + service nginx restart
+   + nginx
+   + systemctl status nginx.service
+   + nano /etc/systemd/system/medicalknowledge.service
+   + systemctl daemon-reload
+   + systemctl start medicalknowledge.service
+   + systemctl status medicalknowledge.service
